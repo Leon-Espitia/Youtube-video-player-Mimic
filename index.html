@@ -8,18 +8,28 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <a href="https://www.youtube.com">
-        <img alt="youtube logo" src="C:\Users\lespi\OneDrive\Escritorio\Microverse\Youtube-video-player-Mimic\youtube-logo.png"
-        width="140" height="50">
-    </a>
-    <form action="https://www.youtube.com/search" method="get">
-        <input autocomplete="off" autofocus name="q" placeholder="Search" type="text">
-        <input type="submit">  
-    </form>
-    <iframe width="860" height="615" src="https://www.youtube.com/embed/BMuknRb7woc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="260" height="215" src="https://www.youtube.com/embed/v_luodP_mfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="260" height="215" src="https://www.youtube.com/embed/v0ngsVRWK40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="260" height="215" src="https://www.youtube.com/embed/mB-QXgtoItA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="header">
+        <a  href="https://www.youtube.com">
+            <img alt="youtube logo" src="C:\Users\lespi\OneDrive\Escritorio\Microverse\Youtube-video-player-Mimic\youtube-logo.png"
+            width="140" height="50">
+        </a>
+        <form id="search" action="https://www.youtube.com/search" method="get">
+            <input autocomplete="off" autofocus name="q" placeholder="Search" type="text">
+            <input type="submit">  
+        </form>
+    </div>    
+    <div id="central">
+        <div class="main">
+            <iframe width="860" height="615" src="https://www.youtube.com/embed/gbp4pbETo_4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="playlist">  
+            <iframe src="https://www.youtube.com/embed/12N8psoFI8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+            <iframe src="https://www.youtube.com/embed/HM31DpLnL5I?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/v0ngsVRWK40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/rJxRFZT_cEA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/6TEXS0cMQ1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>  
+    </div>        
 </body>
 </html>
 

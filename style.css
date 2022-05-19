@@ -1,3 +1,38 @@
 body{
-    background-color: rgb(61, 58, 58);
+    background-color: rgb(30, 28, 28);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2%;
+    align-items: center;
+    padding-left: 3%;
+   
+    
+}
+
+.playlist 
+{  
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    width: 250px;
+    height: 310px;
+    margin-left: 1%;
+    
+}
+#central
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    align-items: flex-start;
+    margin-left: 10%;
+}
+#search
+{
+    display: flex;
+    padding-left: 25%;
+    align-items: center;
+
 }
